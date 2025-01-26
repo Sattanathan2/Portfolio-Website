@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #1a1a1a;
+    color: white;
+    line-height: 1.6;
+    padding: 0 2rem;
+}
+
+header {
+    background: linear-gradient(135deg, #6e44ff, #9d4edd);
+    color: white;
+    padding: 1.5rem 2rem;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+nav {
+    margin-top: 1rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 1rem;
+    font-size: 1.2rem;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.experience {
+    background-color: #292929;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.experience h2 {
+    color: #9d4edd;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.job {
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    border: 2px solid #6e44ff;
+    border-radius: 10px;
+    background-color: #1a1a1a;
+}
+
+.job h3 {
+    color: #9d4edd;
+    margin-bottom: 0.5rem;
+}
+
+.job p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    color: #ccc;
+}
+
+.job ul {
+    list-style-type: disc;
+    padding-left: 1.5rem;
+}
+
+.job li {
+    margin-bottom: 0.5rem;
+}
+
+footer {
+    text-align: center;
+    margin-top: 2rem;
+    padding: 1rem;
+    background-color: #6e44ff;
+    border-radius: 5px;
+}
